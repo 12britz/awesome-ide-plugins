@@ -22,6 +22,7 @@ All entries are categorized so you can grab only what you need. Keep your editor
   - [UI, Themes & Icons](#vscode-ui-themes--icons)
   - [Markdown & Docs](#vscode-markdown--docs)
   - [Database Clients](#vscode-database-clients)
+  - [Hidden Gems & Niche Tools](#vscode-hidden-gems--niche-tools)
 - [IntelliJ IDEA Plugins](#intellij-idea-plugins)
   - [AI & Code Assistants](#intellij-ai--code-assistants)
   - [Code Quality & Static Analysis](#intellij-code-quality--static-analysis)
@@ -33,6 +34,8 @@ All entries are categorized so you can grab only what you need. Keep your editor
   - [Remote & Collaboration](#intellij-remote--collaboration)
   - [Documentation & Translation](#intellij-documentation--translation)
   - [UI, Themes & Fun](#intellij-ui-themes--fun)
+  - [Hidden Gems & Niche Plugins](#intellij-hidden-gems--niche-plugins)
+- [Discovering More Unique Extensions](#discovering-more-unique-extensions)
 - [Installation](#installation)
 - [Troubleshooting & Tips](#troubleshooting--tips)
 
@@ -90,6 +93,8 @@ All entries are categorized so you can grab only what you need. Keep your editor
 | [JavaScript Debugger](https://marketplace.visualstudio.com/items?itemName=ms-vscode.js-debug) | `ms-vscode.js-debug` | Built-in Node + Chrome debugger (usually bundled, but verify it's enabled). |
 | [Chrome DevTools](https://marketplace.visualstudio.com/items?itemName=ms-edgedevtools.vscode-edge-devtools) | `ms-edgedevtools.vscode-edge-devtools` | Inspect DOM, network and console for frontend debugging. |
 | [Playwright Test](https://marketplace.visualstudio.com/items?itemName=ms-playwright.playwright) | `ms-playwright.playwright` | Run/debug E2E tests, record tests, and pick locators in-editor. |
+| [Console Ninja](https://marketplace.visualstudio.com/items?itemName=WallabyJs.console-ninja) | `WallabyJs.console-ninja` | Prints `console.log` output and runtime errors **inline next to the firing line** — a REPL-like debug loop without breakpoints. |
+| [Turbo Console Log](https://marketplace.visualstudio.com/items?itemName=ChakrounAnas.turbo-console-log) | `ChakrounAnas.turbo-console-log` | Insert/comment/uncomment/delete `console.log` statements with one shortcut (`ctrl+alt+L`); Pro auto-removes logs before commit. |
 
 ### VS Code — Containers & Remote Development
 
@@ -108,6 +113,8 @@ All entries are categorized so you can grab only what you need. Keep your editor
 | [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss) | `bradlc.vscode-tailwindcss` | Autocomplete, hover previews, and linting for Tailwind classes. |
 | [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag) | `formulahendry.auto-rename-tag` | Renames paired opening/closing HTML tags together. |
 | [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense) | `christian-kohler.path-intellisense` | Autocomplete file paths in imports and strings. |
+| [CSS Peek](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek) | `pranaygp.vscode-css-peek` | Hover over a class/id in HTML/React and peek/edit its CSS in a floating window — no more hunting through `.css` files. |
+| [Import Cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost) | `wix.vscode-import-cost` | Shows the compiled bundle size of each `import` inline, so you notice bloat before it ships. |
 | [ES7+ React/Redux Snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets) | `dsznajder.es7-react-js-snippets` | Fast React snippets (rafce, rfc, etc.). |
 | [Live Sass Compiler](https://marketplace.visualstudio.com/items?itemName=glenn2223.live-sass) | `glenn2223.live-sass` | Compiles SCSS/Sass to CSS on save (for projects without a build tool). |
 
@@ -121,6 +128,8 @@ All entries are categorized so you can grab only what you need. Keep your editor
 | [Rust](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer) | `rust-lang.rust-analyzer` | Official Rust language server with great IntelliSense. |
 | [C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit) | `ms-dotnettools.csdevkit` | Project-level .NET tooling: debugging, testing, and solution management. |
 | [ESLint/Prettier for TS bundling] | — | Pair the quality tools above with any TypeScript workload. |
+| [VSCode Neovim](https://marketplace.visualstudio.com/items?itemName=asvetliakov.vscode-neovim) | `asvetliakov.vscode-neovim` | Full Neovim engine embedded in VS Code (~10K stars) — real Vim, not a partial emulator. |
+| [Vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim) | `vscodevim.vim` | The classic Vim emulation (~15K GitHub stars) for those who want Vim keybindings only. |
 
 ### VS Code — Productivity
 
@@ -133,6 +142,12 @@ All entries are categorized so you can grab only what you need. Keep your editor
 | [CodeSnap](https://marketplace.visualstudio.com/items?itemName=adpyke.codesnap) | `adpyke.codesnap` | Beautiful syntax-highlighted screenshots for docs, articles, blog posts. |
 | [Peacock](https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock) | `johnpapa.vscode-peacock` | Color-code your VS Code window per project — never edit the wrong project again. |
 | [Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks) | `alefragnani.Bookmarks` | Jump between marked lines across files. |
+| [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree) | `Gruntfuggly.todo-tree` | Rewrites TODO/FIXME comments into a searchable sidebar tree with highlight colors. |
+| [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments) | `aaron-bond.better-comments` | Color-codes comments (`!` alert, `?` question, `*` highlight, `TODO`) for instant visual scanning. |
+| [WakaTime](https://marketplace.visualstudio.com/items?itemName=WakaTime.vscode-wakatime) | `WakaTime.vscode-wakatime` | Auto time-tracking with beautiful dashboards of your languages, projects, and coding trends. |
+| [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner) | `formulahendry.code-runner` | Run code snippets of almost any language with one click — perfect for experimenting. |
+| [Local History](https://marketplace.visualstudio.com/items?itemName=xyz.local-history) | `xyz.local-history` | Snapshots every save locally — undo anything even when Git isn't involved. |
+| [GrapeCity Excel Viewer](https://marketplace.visualstudio.com/items?itemName=GrapeCity.gc-excelviewer) | `GrapeCity.gc-excelviewer` | Open and inspect `.xlsx`/`.csv` files (including formulas) without leaving the editor. |
 
 ### VS Code — Collaboration
 
@@ -164,6 +179,22 @@ All entries are categorized so you can grab only what you need. Keep your editor
 | [PostgreSQL](https://marketplace.visualstudio.com/items?itemName=ms-ossdata.vscode-postgresql) | `ms-ossdata.vscode-postgresql` | Microsoft's Postgres explorer with IntelliSense and query tools. |
 | [SQLTools](https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools) | `mtxr.sqltools` | Universal SQL client for multiple dialects + a driver marketplace. |
 | [MongoDB](https://marketplace.visualstudio.com/items?itemName=mongodb.mongodb-vscode) | `mongodb.mongodb-vscode` | Query and visualize MongoDB directly from VS Code. |
+
+### VS Code — Hidden Gems & Niche Tools
+
+Less famous, but solve a very specific pain exceptionally well.
+
+| Extension | ID | Why you want it |
+| --- | --- | --- |
+| [Draw.io Integration](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio) | `hediet.vscode-drawio` | Full `diagrams.net` flowchart editor inside VS Code (~9.5K stars) — diagrams live in your repo as text. |
+| [Debug Visualizer](https://marketplace.visualstudio.com/items?itemName=hediet.debug-visualizer) | `hediet.debug-visualizer` | Live data visualizations (graphs, trees, grids, charts) of your debugger variables (~8K stars). |
+| [CodeceptJS / test IDE] | — | Pair with Playwright/Test Runner above for E2E workflows. |
+| [Git Timeline](https://marketplace.visualstudio.com/items?itemName=codezombiech.git-timeline) | `codezombiech.git-timeline` | Plot commits across time and click straight into each change. |
+| [Hexdump](https://marketplace.visualstudio.com/items?itemName=slevesque.vscode-hexdump) | `slevesque.vscode-hexdump` | Inspect binary files as hex in the editor. |
+| [markdown-mermaid](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid) | `bierner.markdown-mermaid` | Renders Mermaid diagrams inside Markdown preview. |
+| [PDF Preview](https://marketplace.visualstudio.com/items?itemName=tomoki1207.pdf) | `tomoki1207.pdf` | View PDFs in a tab instead of jumping to another app. |
+| [Esker LgKeys](https://marketplace.visualstudio.com/items?itemName=Esker.LgKeys) | — | Visualize/manage i18n translation keys with highlighting, navigation, and Git branch analysis. |
+| [DevMeter] / [Continuity] | — | Emerging niche picks: local time-tracker and persistent-memory AI assistants. Ask your AI agent, community channels, or your own editor what unsolved pain to fix next. |
 
 ---
 
@@ -267,6 +298,48 @@ All entries are categorized so you can grab only what you need. Keep your editor
 | [Catppuccin Theme](https://plugins.jetbrains.com/plugin/25656-catppuccin-theme) | Pastel theme family with matching UI. |
 | [Nyan Progress Bar](https://plugins.jetbrains.com/plugin/8575-nyan-progress-bar) | Replaces the Progress bar with a Nyan cat animation. |
 | [Power Mode II](https://plugins.jetbrains.com/plugin/8251-power-mode-ii) | Particles and sparks while you type (use low intensity to avoid distraction). |
+
+### IntelliJ — Hidden Gems & Niche Plugins
+
+| Plugin | Why you want it |
+| --- | --- |
+| [Grazie](https://plugins.jetbrains.com/plugin/12175-grazie) | Built-in spell/grammar checking (LanguageTool under the hood, 15+ languages) — catches typos in comments, docs, and identifiers. |
+| [Import Cost (denofevil)](https://plugins.jetbrains.com/plugin/9970-import-cost) | Displays the bundling size of imported JS packages right in the editor. |
+| [JsonToKotlinClass](https://plugins.jetbrains.com/plugin/9960-json-to-kotlin-class-json2kotlin) | Generate Kotlin data classes from JSON snippets — a daily lifesaver for Kotlin/Android devs (~3K stars). |
+| [AutoDev (phodal)](https://plugins.jetbrains.com/plugin/21559-autodev) | Multi-agent AI coding platform built on Kotlin Multiplatform (~4.5K stars). |
+| [Compose Stability Analyzer](https://plugins.jetbrains.com/plugin/23155-compose-stability-analyzer) | Real-time analysis of which Jetpack Compose composables are (un)stable — direct from Android Studio. |
+| [PhpInspectionSea](https://plugins.jetbrains.com/plugin/7622-phpinspectionsea) | Hundreds of extra PHP inspections for PhpStorm. |
+| [EmmyLua](https://plugins.jetbrains.com/plugin/9768-emmylua) | The de-facto Lua language server + debugger for IntelliJ. |
+| [intellij-rust](https://plugins.jetbrains.com/plugin/8182-rust) | Rust language support in IntelliJ Platform IDEs (~4.5K stars). |
+| [Crontab Support](https://plugins.jetbrains.com/plugin/22798-crontab-editor) | Syntax-aware editing and validation for cron/crontab files. |
+| [Git Churn](https://plugins.jetbrains.com/plugin/18221-gitchurn) | Hotspot statistics — which files change most often (a proxy for where tech debt lives). |
+| [Serial Port Monitor](https://plugins.jetbrains.com/plugin/21815-serial-port-monitor) | Read/write serial ports from the IDE — handy for embedded (CLion) work. |
+| [MinecraftDev](https://plugins.jetbrains.com/plugin/8327-minecraft-development) | Forge/Fabric/Bukkit support for Minecraft modding — the most fun "niche" plugin on this list (~2K stars). |
+
+---
+
+## Discovering More Unique Extensions
+
+The mainstream lists converge on the same dozen tools. To find genuinely unique extensions, go where the lists aren't:
+
+**Browse signals instead of aggregate lists**
+- **VS Code Marketplace** — sort by *Most Downloads / Trending / Recently Added* and filter by category; "New + trending" surfaces rising stars before they hit every blog post.
+- **Open VSX** ([open-vsx.org](https://open-vsx.org)) — the open-source registry; check the *Most Popular* and *Most Recent* tabs, and look for community-keyed ports.
+- **JetBrains Marketplace** ([plugins.jetbrains.com](https://plugins.jetbrains.com)) — sort by category, then by *Most Downloaded*; the "Plugin Essentials" collections per IDE are a good seed.
+- **GitHub topics** — browse `topic:intellij-plugin`, `topic:vscode-extension`, `topic:ide-plugin` and sort by stars/recent pushes. New repos with traction = emerging gems.
+
+**Steal from great "personal setup" posts**
+- Search `"my VS Code setup 2026"` or `"dotfiles extended"` — people publish their *final* curated sets, not marketing lists. Cross-check 3–5 of them and keep the intersection.
+- Same for JetBrains: `"my IntelliJ plugins 2026"`, `"IDEA plugins I can't live without"`.
+
+**Follow the right people/communities**
+- GitHub Awesome lists: [`viatsko/awesome-vscode`](https://github.com/viatsko/awesome-vscode), [`ankddev/awesome-intellij`](https://github.com/ankddev/awesome-intellij) — community-curated, always fresh.
+- Reddit: r/vscode, r/IntelliJIDEA, r/JetBrains — "hidden gem" threads are goldmines.
+- Watch the extension *publishers* you trust (e.g., Microsoft, JetBrains, GitKraken, SonarSource) — they maintain several tools; one good publisher's catalog is a mini-curated list.
+
+**Your own two rules of thumb**
+1. **Solve one real pain.** The best niche extensions exist because someone hit a wall. Keep a running list of "this is annoying" moments and search the marketplace for each one.
+2. **Verify before installing.** Check: recent update, active GitHub repo, no sketchy permissions (read-only where possible), and read the few negative reviews. A unique extension you can't trust is worse than none.
 
 ---
 
